@@ -1,6 +1,6 @@
 const express = require("express");
-const routes = require("./routes");
-const sequelize = require("./config/connection"); // Import the Sequelize connection
+const routes = require("./develop/routes");
+const sequelize = require("./develop/config/connection"); // Import the Sequelize connection
 
 const app = express();
 const PORT = process.env.PORT || 3001;
